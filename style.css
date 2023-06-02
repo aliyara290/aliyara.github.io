@@ -497,13 +497,13 @@ html {
     text-align: center;
     text-decoration: none;
     padding: 13px 25px;
-    border: 1.5px solid #33acef;
-    color: #33acef;
+    background-color: #33acef;
+    color: #fff;
     border-radius: 3px;
 }
 .hello-btn a:hover {
-    background-color: #33acef;
-        color: #fff;
+    background-color: #118ed1;
+    color: #ccd6f6;
 }
 
 /* footer icons  */
