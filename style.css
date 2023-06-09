@@ -814,7 +814,9 @@ html {
     .row-1-skl #m-18 {
         margin-top: 40px;
     }
-
+    .p-50 {
+        margin-top: 40px;
+    }
     /* say hello style  */
     .say-hello {
         width: 80%;
