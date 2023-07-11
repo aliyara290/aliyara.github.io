@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Yara</title>
+    <meta name="description" content="Hello, I'm Ali Yara, skilled front-end web developer creating engaging user interfaces with HTML, CSS, and JavaScript. Passionate about
+    delivering seamless digital experiences.">
+    <meta name="keyword" content="Ali Yara, Coding, front-end-developer, moroccan-developer, sahara-developer, website developer">
+    <meta name="author" content="Ali Yara">
+    <meta name="theme-color" content="#0a192f">
+    <!-- font Awesome  -->
+    <script src="https://kit.fontawesome.com/f01941449c.js" crossorigin="anonymous"></script>
+    <!-- stylesheet  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="imgs/tab-icon.jpg">
+</head>
+<body>
+    <!-- this is loader logo  -->
+    <div class="loader">
+        <svg class="spinner" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.13 32.78">
+            <defs>
+                <style class="path">
+                    .cls-1 {
+                        fill: #33acef;
+                    }
+                </style>
+            </defs>
+            <title>Logo</title>
+            <path class="cls-1"
+                d="M24.8,40.85c-3.81,0-9.21.09-13,.12a3.07,3.07,0,0,1-.42-.07,1.63,1.63,0,0,1,.09-.45q1.94-3.39,3.89-6.76c1.18-2,2.37-4.08,3.55-6.13l1.7-2.95c.16-.28.31-.3.46-.05l5.13,8.9q3.59,6.2,7.19,12.39a.72.72,0,0,0,.53.31c1.81,0,3.61,0,5.42,0a.69.69,0,0,0,.51-.29c.87-1.48,1.71-3,2.57-4.47l5.31-9.18,5.79-10C55,19.56,56.48,17,58,14.45c.19-.34.12-.45-.27-.45-1.73,0-3.47,0-5.21,0a.74.74,0,0,0-.73.43l-2.89,5q-2.22,3.87-4.45,7.74l-6,10.32-1.81,3.12a3.3,3.3,0,0,1-.34-.42l-4.35-7.51q-2.58-4.49-5.17-9L21.11,13.9a2.17,2.17,0,0,0-.24-.29,1.65,1.65,0,0,0-.3.29q-1.3,2.22-2.59,4.46l-3.22,5.57c-1.16,2-2.32,4-3.48,6L8,35.65,4.23,42.16,2,46c-.17.29-.11.4.24.42h.28l12.72-.06,12.19-.09Z"
+                transform="translate(-1.94 -13.61)" />
+            <path class="cls-1"
+                d="M39.77,24.3l-3.12,5.41c-3.11-5.37-6.17-10.66-9.26-16a4.78,4.78,0,0,1,.5-.05h5.26a.63.63,0,0,1,.63.36c1.16,2,2.34,4,3.5,6.06C38.11,21.46,38.92,22.89,39.77,24.3Z"
+                transform="translate(-1.94 -13.61)" />
+        </svg>
+    </div>
+    <div class="all-content" id="website-content" style="display: none;">
+        <!-- navbar -->
+        <div class="navbar">
+            <div class="content">
+                <div class="logo">
+                    <a href="#"><img src="imgs/logo.png" alt="logo"></a>
+                </div>
+                <div class="links">
+                    <div class="menu-bar-links">
+                        <ul>
+                            <li><a href="#about"><span>01.</span>About</a></li>
+                            <li><a href="#skills"><span>02.</span>Skills</a></li>
+                            <li><a href="#work"><span>03.</span>Work</a></li>
+                            <li><a href="#contact"><span>04.</span>Contact</a></li>
+                        </ul>
+                        <a href="resume.html" target="_blank" class="resume">Resume</a>
+                    </div>
+                    <div class="x-mark">
+                        <i class="fa-solid fa-x" id="x-mark"></i>
+                    </div>
+                </div>
+                <div class="menu-bar">
+                    <i class="fa-solid fa-bars-staggered" id="menu-bar"></i>
+                </div>
+            </div>
+        </div>
+        <!-- left side (links)  -->
+        <div class="left-side">
+            <div class="icons">
+                <ul>
+                    <li class="icon-links"><a href="https://www.instagram.com/_ali_yara/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a></li>
+                    <li class="icon-links"><a href="https://twitter.com/ALIYARA27498214?t=5tNFxNaSIUNTxmAp0MuaFw&s=09"
+                            target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li class="icon-links"><a href="https://www.linkedin.com/in/ali-yara-653b29241" target="_blank"><i
+                                class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li class="icon-links"><a href="https://github.com/aliyara290" target="_blank"><i
+                                class="fa-brands fa-github"></i></a></li>
+                    <li class="icon-links i-l-bar"></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- right-side  -->
+        
+        <div class="right-side">
+            <div class="mailto">
+                <ul>
+                    <li class="icon-links mail"><a href="mailto:ali.yara.fr@gmail.com">ali.yara.fr@gmail.com</a></li>
+                    <li class="icon-links i-l-bar p-00"></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- content  -->
+        
+        <!-- main content  -->
+        <div class="main">
+        
+            <!-- header  -->
+        
+            <div class="header-content">
+                <div class="header">
+                    <p id="my-name">Hi, my name is </p>
+                    <p id="name">Ali Yara.</p>
+                    <p id="p-16">I build things for web.</p>
+                    <p id="last-p">Skilled front-end web developer creating engaging user interfaces with HTML, CSS, and
+                        JavaScript. Passionate about
+                        delivering seamless digital experiences.</p>
+                </div>
+            </div>
+        
+        
+            <!-- this about section  -->
+        
+            <div class="about" id="about">
+                <div class="head">
+                    <h2><span>01.</span> About Me</h2>
+                    <div class="horizontal-bar"></div>
+                </div>
+                <div class="about-me">
+                    <div class="about-text">
+                        <p>Hello! My name is Ali and I enjoy creating things that live on the internet. My interest in web
+                            development started back
+                            in 2018 when I decided to make my own website.</p>
+                        <p>Proficient in HTML, CSS, and JavaScript, specializing in modern frameworks like React.</p>
+                        <p>Collaborative, detail-oriented, and dedicated to delivering high-quality solutions that exceed
+                            expectations.</p>
+                        <p>Here are a few technologies I’ve been working with recently:</p>
+                        <div class="recently-s">
+                            <ul>
+                                <li><span>▹</span> Javascript <span>(ES6+)</span></li>
+                                <li><span>▹</span> React</li>
+                                <li><span>▹</span> Bootstrap</li>
+                                <li><span>▹</span> WordPress</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-picture">
+                        <div class="img-bg">
+                            <img src="imgs/my-picture.jpg" alt="picture" class="my-picture">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- skills section  -->
+        
+            <div class="skills" id="skills">
+                <div class="head">
+                    <h2><span>02.</span> Skills</h2>
+                    <div class="horizontal-bar"></div>
+                </div>
+                <div class="skills-rows">
+                    <div class="row-1-skl">
+                        <div class="skill-col recently-s">
+                            <div class="s-head">
+                                <h2>Development:</h2>
+                            </div>
+                            <div class="prog">
+                                <ul>
+                                    <li>
+                                        <div class="arrow">
+                                            <div class="vertical-bar"></div>
+                                            <span>▹</span>
+                                        </div>
+                                        <div class="skill">
+                                            <p>HTML5</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="arrow">
+                                            <div class="vertical-bar"></div>
+                                            <span>▹</span>
+                                        </div>
+                                        <div class="skill">
+                                            <p>CSS3</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="arrow">
+                                            <div class="vertical-bar"></div>
+                                            <span>▹</span>
+                                        </div>
+                                        <div class="skill">
+                                            <p>JavaScript</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <div class="arrow">
+                                            <div class="vertical-bar"></div>
+                                            <span>▹</span>
+                                        </div>
+                                        <div class="skill">
+                                            <p>React</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="arrow">
+                                            <div class="vertical-bar"></div>
+                                            <span>▹</span>
+                                        </div>
+                                        <div class="skill">
+                                            <p>Bootstap</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="arrow">
+                                            <div class="vertical-bar"></div>
+                                            <span>▹</span>
+                                        </div>
+                                        <div class="skill">
+                                            <p>Tailwind</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- last row  -->
+                        <div class="skill-col recently-s">
+                            <div class="s-head">
+                                <h2 id="m-18">Design:</h2>
+                            </div>
+                            <div class="prog">
+                                <ul>
+                                    <li>
+                                        <div class="arrow">
+                                            <div class="vertical-bar"></div>
+                                            <span>▹</span>
+                                        </div>
+                                        <div class="skill">
+                                            <p>Adobe Illustrator</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="arrow">
+                                            <div class="vertical-bar"></div>
+                                            <span>▹</span>
+                                        </div>
+                                        <div class="skill">
+                                            <p>Adobe Photoshop</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="arrow">
+                                            <div class="vertical-bar"></div>
+                                            <span>▹</span>
+                                        </div>
+                                        <div class="skill">
+                                            <p>Adobe InDesign</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-1-skl">
+                        <div class="skill-col recently-s">
+                            <div class="s-head">
+                                <h2>Tools:</h2>
+                            </div>
+                            <div class="prog">
+                                <ul>
+                                    <li>
+                                        <div class="arrow">
+                                            <div class="vertical-bar"></div>
+                                            <span>▹</span>
+                                        </div>
+                                        <div class="skill">
+                                            <p>Git & Github</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="arrow">
+                                            <div class="vertical-bar"></div>
+                                            <span>▹</span>
+                                        </div>
+                                        <div class="skill">
+                                            <p>Command Line</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="arrow">
+                                            <div class="vertical-bar"></div>
+                                            <span>▹</span>
+                                        </div>
+                                        <div class="skill">
+                                            <p>Chrome DevTools</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="skill-col recently-s p-50">
+                            <div class="s-head">
+                                <h2>Knowledge:</h2>
+                            </div>
+                            <div class="prog">
+                                <ul>
+                                    <li>
+                                        <div class="arrow">
+                                            <div class="vertical-bar"></div>
+                                            <span>▹</span>
+                                        </div>
+                                        <div class="skill">
+                                            <p>ECMAScript 6</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="arrow">
+                                            <div class="vertical-bar"></div>
+                                            <span>▹</span>
+                                        </div>
+                                        <div class="skill">
+                                            <p>SEO</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- projects I done  -->
+        
+            <div class="work" id="work">
+                <div class="head work-head">
+                    <h2><span>03.</span> Projects I’ve Done</h2>
+                    <div class="horizontal-bar"></div>
+                </div>
+                <div class="projects-card">
+                    <div class="card">
+                        <!-- top icons  -->
+                        <div class="top-row">
+                            <div class="folder">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-folder">
+                                    <title>Folder</title>
+                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                                    </path>
+                                </svg>
+                            </div>
+        
+                            <div class="external-link">
+        
+                                <div class="git">
+                                    <a href="https://github.com/aliyara290/veedteech.github.io.git" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                </div>
+        
+                                <div class="extr">
+                                    <a href="https://aliyara290.github.io/veedteech.github.io/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" class="feather feather-external-link">
+                                            <title>External Link</title>
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg></a>
+                                </div>
+        
+                            </div>
+        
+                        </div>
+                        <div class="details-w">
+                            <div class="w-head">
+                                <h2>Veedtech</h2>
+                                <p>Portfolio for one of my clients who provide Digital Marketing and Graphic Design.</p>
+                            </div>
+                            <div class="sk-use recently-s">
+                                <ul>
+                                    <li><span>▹</span> HTML5</li>
+                                    <li><span>▹</span> CSS3</li>
+                                </ul>
+                                <ul>
+                                    <li><span>▹</span> JavaScript</li>
+                                    <li><span>▹</span> Bootstrap</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <!-- top icons  -->
+                        <div class="top-row">
+                            <div class="folder">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-folder">
+                                    <title>Folder</title>
+                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                                    </path>
+                                </svg>
+                            </div>
+        
+                            <div class="external-link">
+        
+                                <div class="git">
+                                    <a href="https://github.com/aliyara290/marmara.github.io.git" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                </div>
+        
+                                <div class="extr">
+                                    <a href="https://aliyara290.github.io/marmaraa.github.io/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" class="feather feather-external-link">
+                                            <title>External Link</title>
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg></a>
+                                </div>
+        
+                            </div>
+        
+                        </div>
+                        <div class="details-w">
+                            <div class="w-head">
+                                <h2>Marmara</h2>
+                                <p>Portfolio for a restaurant & cafeteria for one of my clients. Built with JavaScript, HTML,
+                                    CSS, Bootstrap</p>
+                            </div>
+                            <div class="sk-use recently-s">
+                                <ul>
+                                    <li><span>▹</span> HTML5</li>
+                                    <li><span>▹</span> CSS3</li>
+                                    <li><span>▹</span> JavaScript</li>
+                                </ul>
+                                <ul>
+                                    <li><span>▹</span> Bootstrap</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <!-- top icons  -->
+                        <div class="top-row">
+                            <div class="folder">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-folder">
+                                    <title>Folder</title>
+                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                                    </path>
+                                </svg>
+                            </div>
+        
+                            <div class="external-link">
+        
+                                <div class="git">
+                                    <a href="https://github.com/aliyara290/randomquotes.github.io.git" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                </div>
+        
+                                <div class="extr">
+                                    <a href="https://aliyara290.github.io/randomquotes.github.io/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" class="feather feather-external-link">
+                                            <title>External Link</title>
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg></a>
+                                </div>
+        
+                            </div>
+        
+                        </div>
+                        <div class="details-w">
+                            <div class="w-head">
+                                <h2>random quotes</h2>
+                                <p>Website provide random quotes</p>
+                            </div>
+                            <div class="sk-use recently-s">
+                                <ul>
+                                    <li><span>▹</span> HTML5</li>
+                                    <li><span>▹</span> CSS3</li>
+                                    <li><span>▹</span> JavaScript</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <!-- top icons  -->
+                        <div class="top-row">
+                            <div class="folder">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-folder">
+                                    <title>Folder</title>
+                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                                    </path>
+                                </svg>
+                            </div>
+        
+                            <div class="external-link">
+        
+                                <div class="git">
+                                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                                </div>
+        
+                                <div class="extr">
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" class="feather feather-external-link">
+                                            <title>External Link</title>
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg></a>
+                                </div>
+        
+                            </div>
+        
+                        </div>
+                        <div class="details-w">
+                            <div class="w-head">
+                                <h2>Skweezer</h2>
+                                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia
+                                </p>
+                            </div>
+                            <div class="sk-use recently-s">
+                                <ul>
+                                    <li><span>▹</span> HTML5</li>
+                                    <li><span>▹</span> CSS3</li>
+                                    <li><span>▹</span> JavaScript</li>
+                                </ul>
+                                <ul>
+                                    <li><span>▹</span> React</li>
+                                    <li><span>▹</span> Bootstrap</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- hide cards  -->
+                    <div class="card hide-card">
+                        <!-- top icons  -->
+                        <div class="top-row">
+                            <div class="folder">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-folder">
+                                    <title>Folder</title>
+                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                                    </path>
+                                </svg>
+                            </div>
+        
+                            <div class="external-link">
+        
+                                <div class="git">
+                                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                                </div>
+        
+                                <div class="extr">
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" class="feather feather-external-link">
+                                            <title>External Link</title>
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg></a>
+                                </div>
+        
+                            </div>
+        
+                        </div>
+                        <div class="details-w">
+                            <div class="w-head">
+                                <h2>The talent</h2>
+                                <p>A private school, Provide a lot of courses. Built with HTML, CSS, JS,</p>
+                            </div>
+                            <div class="sk-use recently-s">
+                                <ul>
+                                    <li><span>▹</span> HTML5</li>
+                                    <li><span>▹</span> CSS3</li>
+                                    <li><span>▹</span> JavaScript</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hide-card">
+                        <!-- top icons  -->
+                        <div class="top-row">
+                            <div class="folder">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-folder">
+                                    <title>Folder</title>
+                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                                    </path>
+                                </svg>
+                            </div>
+        
+                            <div class="external-link">
+        
+                                <div class="git">
+                                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                                </div>
+        
+                                <div class="extr">
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" class="feather feather-external-link">
+                                            <title>External Link</title>
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg></a>
+                                </div>
+        
+                            </div>
+        
+                        </div>
+                        <div class="details-w">
+                            <div class="w-head">
+                                <h2>Skweezer</h2>
+                                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia
+                                </p>
+                            </div>
+                            <div class="sk-use recently-s">
+                                <ul>
+                                    <li><span>▹</span> HTML5</li>
+                                    <li><span>▹</span> CSS3</li>
+                                    <li><span>▹</span> JavaScript</li>
+                                </ul>
+                                <ul>
+                                    <li><span>▹</span> React</li>
+                                    <li><span>▹</span> Bootstrap</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hide-card">
+                        <!-- top icons  -->
+                        <div class="top-row">
+                            <div class="folder">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-folder">
+                                    <title>Folder</title>
+                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                                    </path>
+                                </svg>
+                            </div>
+        
+                            <div class="external-link">
+        
+                                <div class="git">
+                                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                                </div>
+        
+                                <div class="extr">
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" class="feather feather-external-link">
+                                            <title>External Link</title>
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg></a>
+                                </div>
+        
+                            </div>
+        
+                        </div>
+                        <div class="details-w">
+                            <div class="w-head">
+                                <h2>Hola - GYM</h2>
+                                <p>Portfolio for GYM club for one of my clients. Built with JavaScript, HTML, CSS, Bootstrap
+                                </p>
+                            </div>
+                            <div class="sk-use recently-s">
+                                <ul>
+                                    <li><span>▹</span> HTML5</li>
+                                    <li><span>▹</span> CSS3</li>
+                                    <li><span>▹</span> JavaScript</li>
+                                </ul>
+                                <ul>
+                                    <li><span>▹</span> Bootstrap</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hide-card">
+                        <!-- top icons  -->
+                        <div class="top-row">
+                            <div class="folder">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-folder">
+                                    <title>Folder</title>
+                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                                    </path>
+                                </svg>
+                            </div>
+        
+                            <div class="external-link">
+        
+                                <div class="git">
+                                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                                </div>
+        
+                                <div class="extr">
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" class="feather feather-external-link">
+                                            <title>External Link</title>
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg></a>
+                                </div>
+        
+                            </div>
+        
+                        </div>
+                        <div class="details-w">
+                            <div class="w-head">
+                                <h2>The talent</h2>
+                                <p>A private school, Provide a lot of courses. Built with HTML, CSS, JS,</p>
+                            </div>
+                            <div class="sk-use recently-s">
+                                <ul>
+                                    <li><span>▹</span> HTML5</li>
+                                    <li><span>▹</span> CSS3</li>
+                                    <li><span>▹</span> JavaScript</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hide-card">
+                        <!-- top icons  -->
+                        <div class="top-row">
+                            <div class="folder">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-folder">
+                                    <title>Folder</title>
+                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                                    </path>
+                                </svg>
+                            </div>
+        
+                            <div class="external-link">
+        
+                                <div class="git">
+                                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                                </div>
+        
+                                <div class="extr">
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" class="feather feather-external-link">
+                                            <title>External Link</title>
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg></a>
+                                </div>
+        
+                            </div>
+        
+                        </div>
+                        <div class="details-w">
+                            <div class="w-head">
+                                <h2>Skweezer</h2>
+                                <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia
+                                </p>
+                            </div>
+                            <div class="sk-use recently-s">
+                                <ul>
+                                    <li><span>▹</span> HTML5</li>
+                                    <li><span>▹</span> CSS3</li>
+                                    <li><span>▹</span> JavaScript</li>
+                                </ul>
+                                <ul>
+                                    <li><span>▹</span> React</li>
+                                    <li><span>▹</span> Bootstrap</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hide-card">
+                        <!-- top icons  -->
+                        <div class="top-row">
+                            <div class="folder">
+                                <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-folder">
+                                    <title>Folder</title>
+                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z">
+                                    </path>
+                                </svg>
+                            </div>
+        
+                            <div class="external-link">
+        
+                                <div class="git">
+                                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                                </div>
+        
+                                <div class="extr">
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
+                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" class="feather feather-external-link">
+                                            <title>External Link</title>
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg></a>
+                                </div>
+        
+                            </div>
+        
+                        </div>
+                        <div class="details-w">
+                            <div class="w-head">
+                                <h2>Hola - GYM</h2>
+                                <p>Portfolio for GYM club for one of my clients. Built with JavaScript, HTML, CSS, Bootstrap
+                                </p>
+                            </div>
+                            <div class="sk-use recently-s">
+                                <ul>
+                                    <li><span>▹</span> HTML5</li>
+                                    <li><span>▹</span> CSS3</li>
+                                    <li><span>▹</span> JavaScript</li>
+                                </ul>
+                                <ul>
+                                    <li><span>▹</span> Bootstrap</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="show-more">
+                    <button id="show-more">Show more</button>
+                </div>
+            </div>
+        
+            <!-- this is say Hello section  -->
+        
+            <div class="say-hello" id="contact">
+                <div class="head hello-head" style="margin-left: 0;">
+                    <h2 class="hello-head">Get In Touch</h2>
+                </div>
+                <div class="hello-parg">
+                    <p>I'd love to hear from you! Whether you have a question, a project idea, or just want to say hello, feel
+                        free to reach
+                        out. I'm always excited to connect and explore new possibilities. Don't hesitate to drop me a line and
+                        let's start a
+                        conversation today.</p>
+                </div>
+                <div class="hello-btn">
+                    <a href="mailto:ali.yara.fr@gmail.com">Say Hello</a>
+                </div>
+            </div>
+        
+        </div>
+        
+        <!-- icons links section  -->
+        
+        <div class="footer-links">
+            <ul>
+                <li class="icon-links"><a href="https://www.instagram.com/_ali_yara/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+                <li class="icon-links"><a href="https://twitter.com/ALIYARA27498214?t=5tNFxNaSIUNTxmAp0MuaFw&s=09"
+                        target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="icon-links"><a href="https://www.linkedin.com/in/ali-yara-653b29241" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a></li>
+                <li class="icon-links"><a href="https://github.com/aliyara290" target="_blank"><i
+                            class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <p>Designed By <a href="https://www.instagram.com/_ali_yara/" target="_blank">Ali Yara</a></p>
+        </div>
+    </div>
+    
+    
+
+    <!-- js  -->
+    <script src="app.js"></script>
+</body>
+</html>
