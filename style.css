@@ -483,9 +483,6 @@ html {
     display: flex;
     justify-content: space-around;
 }
-.hello-head h2 {
-    margin-left: 20px;
-}
 .hello-bar {
     width: 300px;
 }
